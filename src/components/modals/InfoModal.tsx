@@ -302,13 +302,13 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         </div>
 
         <p className="text-left text-sm text-gray-500 dark:text-gray-300 pb-2">
-          Each COLUMN contains kana that have the matching (or similar) consonant, e.g. か き く け こ が ぎ ぐ げ ご are in the same column with matching consonant K~G. Notice that basic kana, voiced kana (゛), semi-voiced kana (゜) are treated as they are in the SAME column.
+          Each COLUMN contains kana that have the matching (or similar) consonant, e.g. か き く け こ が ぎ ぐ げ ご are in the same column with matching consonant K~G. Notice that basic kana, voiced kana (゛), semi-voiced kana (゜) are treated as being in the SAME column.
         </p>
         <p className="text-left text-sm text-gray-500 dark:text-gray-300 pb-2">
           Each ROW contains kana that have the matching vowel, e.g. both UPPER row う く す つ ぬ ふ む ゆ る and LOWER row ぅ ぐ ず づ っ ぶ ぷ ゅ ゔ are treated as the SAME row with the matching vowel U.
         </p>
         <p className="text-left text-sm text-gray-500 dark:text-gray-300">
-          Both the kana ん and the long sound mark ー do not have any matching rows or columns. And the kana ゔ does not have matching columns.
+          Both the kana ん and the long sound mark ー do not have any matching rows or columns. The kana ゔ also does not have matching columns.
         </p>
 
         <p className="local-font text-lg leading-6 font-medium text-gray-900 dark:text-gray-100 mt-2 md:mt-4 mb-2">
